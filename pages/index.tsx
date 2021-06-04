@@ -38,8 +38,9 @@ const Home: FC = () => {
 			</Box>
 
 			<Box component="main" display="flex" flex={1} justifyContent="center" alignItems="center">
+				<label htmlFor="location-search-dropdown">Location search dropdown</label>
 				<Autocomplete
-					id="combo-box-demo"
+					id="location-search-dropdown"
 					options={results}
 					getOptionLabel={(option) => option.name}
 					style={{ width: 300 }}
