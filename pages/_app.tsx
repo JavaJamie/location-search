@@ -12,11 +12,8 @@ import '../styles/globals.css';
  * @returns 
  * @author jlee
  */
-// function App({ Component, pageProps }) {
 const App: FC<AppProps> = ({ Component, pageProps }: AppProps) => {
-    return (
-        <Component {...pageProps} />
-    );
+    return <Component {...pageProps} />
 }
 
 export default App;

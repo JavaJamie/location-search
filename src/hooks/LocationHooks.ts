@@ -29,6 +29,11 @@ export const useLocationSearch = (q: string) => {
     return locations;
 }
 
+/**
+ * The @useGetLocation hook returns a more granular description of the locatuon, including its latitude and longitude.
+ * @returns 
+ * @author jlee
+ */
 export const useGetLocation = () => {
     const router = useRouter();
     const { location } = router.query;

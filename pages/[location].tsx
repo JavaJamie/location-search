@@ -5,7 +5,8 @@ import MapChart from '../src/components/Map';
 import { useGetLocation } from '../src/hooks';
 
 /**
- * The @Location component renders the specific details of a @see ILocation based on its id and also a map view of this pinpointing its coordinates (lat and long)
+ * The @Location component renders the specific details of a @see ILocation via a dynamic route
+ * based on its id and also a map view of this pinpointing its coordinates (lat and long).
  * 
  * @see {@link LocationTypes}
  * @returns 
